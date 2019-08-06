@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WindowTitle>Storage and Recipe</WindowTitle>
+  <RecipeButton>Recipe</RecipeButton>
+  <StorageButton>Storage</StorageButton>
+  <LanguageMenu>Language</LanguageMenu>
+  <LanguageName>English</LanguageName>
+</Language>
