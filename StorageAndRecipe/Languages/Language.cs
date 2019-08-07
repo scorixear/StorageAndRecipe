@@ -11,7 +11,9 @@ namespace StorageAndRecipe
         public string RecipeButton { get; set; }
         public string StorageButton { get; set; }
         public string LanguageMenu { get; set; }
+        [XmlIgnore]
         public string LanguageName { get; set; }
+        public Storage storage { get; set; }
 
         public void Save(string file)
         {
@@ -33,5 +35,15 @@ namespace StorageAndRecipe
                 return serializer.Deserialize(stream) as Language;
             }
         }
+        
+    }
+    [Serializable]
+    public class Storage
+    {
+        public string WindowTitle { get; set; }
+        public string NameColumn { get; set; }
+        public string BestBeforeColumn { get; set; }
+        public string ActionColumn { get; set; }
+        public string NewItemButton { get; set; }
     }
 }
