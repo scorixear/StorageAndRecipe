@@ -13,5 +13,6 @@ namespace StorageAndRecipe
     /// </summary>
     public partial class App : Application
     {
+        
     }
 }

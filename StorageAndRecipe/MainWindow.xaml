@@ -22,7 +22,7 @@
             </MenuItem>
 
         </Menu>
-        <Button x:Name="StorageButton" Content="Storage" Grid.Row="1" />
+        <Button x:Name="StorageButton" Content="Storage" Grid.Row="1" Click="StorageButton_Click" />
         <Button x:Name="RecipeButton" Content="Recipe" Grid.Column="1" Grid.Row="1" />
 
 
